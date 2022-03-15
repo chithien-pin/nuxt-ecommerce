@@ -6,5 +6,7 @@ You can directly use them in pages and other components without the need to impo
 
 **Tip:** If a component is conditionally rendered with `v-if` and is big, it is better to use `Lazy` or `lazy-` prefix to lazy load.
 
+- `<CategoryList>` | `<category-list>` (components/CategoryList.vue)
+- `<CategoryView>` | `<category-view>` (components/CategoryView.vue)
 - `<ProductList>` | `<product-list>` (components/ProductList.vue)
 - `<ProductView>` | `<product-view>` (components/ProductView.vue)

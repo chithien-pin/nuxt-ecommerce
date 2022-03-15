@@ -1,9 +1,23 @@
 [
   {
+    "name": "categories-slug",
+    "path": "/categories/:slug?",
+    "component": "C:\\\\Users\\\\Administrator\\\\Desktop\\\\New folder\\\\nuxt-ecommerce\\\\pages\\\\categories\\\\_slug.vue",
+    "chunkName": "pages/categories/_slug",
+    "_name": "_266df230"
+  },
+  {
+    "name": "products-permalink",
+    "path": "/products/:permalink?",
+    "component": "C:\\\\Users\\\\Administrator\\\\Desktop\\\\New folder\\\\nuxt-ecommerce\\\\pages\\\\products\\\\_permalink.vue",
+    "chunkName": "pages/products/_permalink",
+    "_name": "_40b7227e"
+  },
+  {
     "name": "index",
     "path": "/",
-    "component": "D:\\\\NUXT\\\\Ecommerce\\\\pages\\\\index.vue",
+    "component": "C:\\\\Users\\\\Administrator\\\\Desktop\\\\New folder\\\\nuxt-ecommerce\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "_name": "_ca52f692"
+    "_name": "_abcbe4d8"
   }
 ]

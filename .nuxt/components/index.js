@@ -1,3 +1,5 @@
+export { default as CategoryList } from '../..\\components\\CategoryList.vue'
+export { default as CategoryView } from '../..\\components\\CategoryView.vue'
 export { default as ProductList } from '../..\\components\\ProductList.vue'
 export { default as ProductView } from '../..\\components\\ProductView.vue'
 

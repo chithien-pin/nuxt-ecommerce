@@ -27,7 +27,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    // '~/plugin/vue-lazyload.js',
+    // '~/plugin/commerce.js',
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -49,6 +49,7 @@ export default {
     'bootstrap-vue/nuxt',
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+
     'cookie-universal-nuxt',
   ],
 
@@ -92,10 +93,6 @@ export default {
   },
 
   env: {
-    campServer: process.env.CAMP_SERVER,
-    googleLoginURL: process.env.GOOGLE_LOGIN,
-    facebookLoginURL: process.env.FACEBOOK_LOGIN,
-    domainCookies: process.env.DOMAIN_COOKIES
   },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {}
